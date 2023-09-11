@@ -1,26 +1,28 @@
 body{
-    background-image: url("./bg.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
     background-color: wheat;
 }
-span{
-    color:aquamarine;
-}
-h1{
-    text-align: center;
+
+hr{
+    flex-grow: 1;
+    width: 100%;
 }
 
-.flex-container{
+.cont-flex{
     display: flex;
-    background-color: cadetblue;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: end;
+    flex-direction: column;
 }
 
-.flex-item{
-    flex:auto;
-    border: 1px solid #000;
+.cont1-lnb{
+    display: flex;
+    justify-content: center;
+}
+
+.cont2-fp{
+    display: flex;
+    justify-content: center;
+}
+
+.cont3-pp{
+    display: flex;
+    justify-content: center;
 }

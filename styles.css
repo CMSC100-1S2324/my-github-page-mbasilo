@@ -1,0 +1,26 @@
+body{
+    background-image: url("./bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: wheat;
+}
+span{
+    color:aquamarine;
+}
+h1{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    background-color: cadetblue;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+.flex-item{
+    flex:auto;
+    border: 1px solid #000;
+}

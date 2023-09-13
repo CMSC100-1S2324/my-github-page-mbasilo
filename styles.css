@@ -11,7 +11,13 @@ hr{
     border-width: 3px;
     border-color: black;
     border-style: dotted;
+    max-height: 8%;
     max-width: 8%;
+}
+
+.projimg{
+    max-height: 25%;
+    max-width: 25%;
 }
 .cont-flex{
     display: flex;
@@ -32,15 +38,46 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    align-content: space-evenly;
+    align-content: space-between;
 }
+
+
+.sp{
+    width: 100px;
+}
+
+.sp2{
+    width: 300px;
+}
+
 
 .cont4-sk-au{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: space-evenly;
+}
+
+.cont4-sk{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont4-au{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont4-au-p{
+    text-align:center;
+}
+
+.cont4-ul{
+    text-align:center;
 }
 
 
